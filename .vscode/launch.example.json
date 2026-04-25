@@ -1,10 +1,10 @@
-{
+﻿{
   "version": "0.2.0",
   "configurations": [
     {
       "type": "bun",
       "request": "attach",
-      "name": "opencode (attach)",
+      "name": "papecode (attach)",
       "url": "ws://localhost:6499/"
     }
   ]

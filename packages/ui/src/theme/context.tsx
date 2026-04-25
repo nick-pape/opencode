@@ -1,4 +1,4 @@
-import { createEffect, onMount } from "solid-js"
+﻿import { createEffect, onMount } from "solid-js"
 import { createStore } from "solid-js/store"
 import { makeEventListener } from "@solid-primitives/event-listener"
 import { createSimpleContext } from "../context/helper"
@@ -9,10 +9,10 @@ import type { DesktopTheme } from "./types"
 export type ColorScheme = "light" | "dark" | "system"
 
 const STORAGE_KEYS = {
-  THEME_ID: "opencode-theme-id",
-  COLOR_SCHEME: "opencode-color-scheme",
-  THEME_CSS_LIGHT: "opencode-theme-css-light",
-  THEME_CSS_DARK: "opencode-theme-css-dark",
+  THEME_ID: "papecode-theme-id",
+  COLOR_SCHEME: "papecode-color-scheme",
+  THEME_CSS_LIGHT: "papecode-theme-css-light",
+  THEME_CSS_DARK: "papecode-theme-css-dark",
 } as const
 
 const THEME_STYLE_ID = "oc-theme"
@@ -66,7 +66,7 @@ const names: Record<string, string> = {
   nord: "Nord",
   "one-dark": "One Dark",
   onedarkpro: "One Dark Pro",
-  opencode: "OpenCode",
+  papecode: "PapeCode",
   orng: "Orng",
   "osaka-jade": "Osaka Jade",
   palenight: "Palenight",

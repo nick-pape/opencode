@@ -1,12 +1,12 @@
-import { useMutation } from "@tanstack/solid-query"
+﻿import { useMutation } from "@tanstack/solid-query"
 import { Component, createEffect, createMemo, on, Show } from "solid-js"
 import { createStore } from "solid-js/store"
 import { useSync } from "@/context/sync"
 import { useSDK } from "@/context/sdk"
-import { Dialog } from "@opencode-ai/ui/dialog"
-import { List } from "@opencode-ai/ui/list"
-import { Switch } from "@opencode-ai/ui/switch"
-import { showToast } from "@opencode-ai/ui/toast"
+import { Dialog } from "@papecode-ai/ui/dialog"
+import { List } from "@papecode-ai/ui/list"
+import { Switch } from "@papecode-ai/ui/switch"
+import { showToast } from "@papecode-ai/ui/toast"
 import { useLanguage } from "@/context/language"
 
 const statusLabels = {

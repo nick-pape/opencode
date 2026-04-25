@@ -1,18 +1,18 @@
-export * from "./client.js"
+﻿export * from "./client.js"
 export * from "./server.js"
 
-import { createOpencodeClient } from "./client.js"
-import { createOpencodeServer } from "./server.js"
+import { createPapecodeClient } from "./client.js"
+import { createPapecodeServer } from "./server.js"
 import type { ServerOptions } from "./server.js"
 
 export * as data from "./data.js"
 
-export async function createOpencode(options?: ServerOptions) {
-  const server = await createOpencodeServer({
+export async function createPapecode(options?: ServerOptions) {
+  const server = await createPapecodeServer({
     ...options,
   })
 
-  const client = createOpencodeClient({
+  const client = createPapecodeClient({
     baseUrl: server.url,
   })
 

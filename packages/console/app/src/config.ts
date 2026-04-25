@@ -1,13 +1,13 @@
-/**
+﻿/**
  * Application-wide constants and configuration
  */
 export const config = {
   // Base URL
-  baseUrl: "https://opencode.ai",
+  baseUrl: "https://papecode.ai",
 
   // GitHub
   github: {
-    repoUrl: "https://github.com/anomalyco/opencode",
+    repoUrl: "https://github.com/anomalyco/papecode",
     starsFormatted: {
       compact: "140K",
       full: "140,000",
@@ -16,8 +16,8 @@ export const config = {
 
   // Social links
   social: {
-    twitter: "https://x.com/opencode",
-    discord: "https://discord.gg/opencode",
+    twitter: "https://x.com/papecode",
+    discord: "https://discord.gg/papecode",
   },
 
   // Static stats (used on landing page)

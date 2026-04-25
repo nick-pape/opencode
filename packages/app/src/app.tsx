@@ -1,12 +1,12 @@
-import "@/index.css"
-import { I18nProvider } from "@opencode-ai/ui/context"
-import { DialogProvider } from "@opencode-ai/ui/context/dialog"
-import { FileComponentProvider } from "@opencode-ai/ui/context/file"
-import { MarkedProvider } from "@opencode-ai/ui/context/marked"
-import { File } from "@opencode-ai/ui/file"
-import { Font } from "@opencode-ai/ui/font"
-import { Splash } from "@opencode-ai/ui/logo"
-import { ThemeProvider } from "@opencode-ai/ui/theme/context"
+﻿import "@/index.css"
+import { I18nProvider } from "@papecode-ai/ui/context"
+import { DialogProvider } from "@papecode-ai/ui/context/dialog"
+import { FileComponentProvider } from "@papecode-ai/ui/context/file"
+import { MarkedProvider } from "@papecode-ai/ui/context/marked"
+import { File } from "@papecode-ai/ui/file"
+import { Font } from "@papecode-ai/ui/font"
+import { Splash } from "@papecode-ai/ui/logo"
+import { ThemeProvider } from "@papecode-ai/ui/theme/context"
 import { MetaProvider } from "@solidjs/meta"
 import { type BaseRouterProps, Navigate, Route, Router } from "@solidjs/router"
 import { QueryClient, QueryClientProvider } from "@tanstack/solid-query"
@@ -70,7 +70,7 @@ function UiI18nBridge(props: ParentProps) {
 
 declare global {
   interface Window {
-    __OPENCODE__?: {
+    __PAPECODE__?: {
       updaterEnabled?: boolean
       deepLinks?: string[]
       wsl?: boolean

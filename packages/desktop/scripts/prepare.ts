@@ -1,7 +1,7 @@
-#!/usr/bin/env bun
+﻿#!/usr/bin/env bun
 import { $ } from "bun"
 
-import { Script } from "@opencode-ai/script"
+import { Script } from "@papecode-ai/script"
 import { copyBinaryToSidecarFolder, getCurrentSidecar, windowsify } from "./utils"
 
 const pkg = await Bun.file("./package.json").json()
@@ -10,11 +10,11 @@ await Bun.write("./package.json", JSON.stringify(pkg, null, 2) + "\n")
 console.log(`Updated package.json version to ${Script.version}`)
 
 const sidecarConfig = getCurrentSidecar()
-const artifact = process.env.OPENCODE_CLI_ARTIFACT ?? "opencode-cli"
+const artifact = process.env.PAPECODE_CLI_ARTIFACT ?? "papecode-cli"
 
-const dir = "src-tauri/target/opencode-binaries"
+const dir = "src-tauri/target/papecode-binaries"
 
 await $`mkdir -p ${dir}`
 await $`gh run download ${process.env.GITHUB_RUN_ID} -n ${artifact}`.cwd(dir)
 
-await copyBinaryToSidecarFolder(windowsify(`${dir}/${sidecarConfig.ocBinary}/bin/opencode`))
+await copyBinaryToSidecarFolder(windowsify(`${dir}/${sidecarConfig.ocBinary}/bin/papecode`))

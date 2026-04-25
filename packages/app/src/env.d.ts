@@ -1,7 +1,7 @@
-interface ImportMetaEnv {
-  readonly VITE_OPENCODE_SERVER_HOST: string
-  readonly VITE_OPENCODE_SERVER_PORT: string
-  readonly VITE_OPENCODE_CHANNEL?: "dev" | "beta" | "prod"
+﻿interface ImportMetaEnv {
+  readonly VITE_PAPECODE_SERVER_HOST: string
+  readonly VITE_PAPECODE_SERVER_PORT: string
+  readonly VITE_PAPECODE_CHANNEL?: "dev" | "beta" | "prod"
 }
 
 interface ImportMeta {

@@ -1,6 +1,6 @@
-import { Message, Model, Part, Session, SnapshotFileDiff } from "@opencode-ai/sdk/v2"
-import { fn } from "@opencode-ai/shared/util/fn"
-import { iife } from "@opencode-ai/shared/util/iife"
+﻿import { Message, Model, Part, Session, SnapshotFileDiff } from "@papecode-ai/sdk/v2"
+import { fn } from "@papecode-ai/shared/util/fn"
+import { iife } from "@papecode-ai/shared/util/iife"
 import z from "zod"
 import { Storage } from "./storage"
 

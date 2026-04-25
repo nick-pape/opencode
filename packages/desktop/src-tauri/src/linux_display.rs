@@ -1,4 +1,4 @@
-use serde::{Deserialize, Serialize};
+﻿use serde::{Deserialize, Serialize};
 use serde_json::json;
 use std::path::PathBuf;
 use tauri::AppHandle;
@@ -15,9 +15,9 @@ struct DisplayConfig {
 
 fn dir() -> Option<PathBuf> {
     Some(dirs::data_dir()?.join(if cfg!(debug_assertions) {
-        "ai.opencode.desktop.dev"
+        "ai.papecode.desktop.dev"
     } else {
-        "ai.opencode.desktop"
+        "ai.papecode.desktop"
     }))
 }
 

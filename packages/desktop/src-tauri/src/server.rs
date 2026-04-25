@@ -1,4 +1,4 @@
-use std::time::{Duration, Instant};
+﻿use std::time::{Duration, Instant};
 
 use tauri::AppHandle;
 use tauri_plugin_store::StoreExt;
@@ -160,7 +160,7 @@ async fn check_health(url: &str, password: Option<&str>) -> bool {
     let mut req = client.get(health_url);
 
     if let Some(password) = password {
-        req = req.basic_auth("opencode", Some(password));
+        req = req.basic_auth("papecode", Some(password));
     }
 
     req.send()

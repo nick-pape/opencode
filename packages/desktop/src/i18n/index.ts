@@ -1,4 +1,4 @@
-import * as i18n from "@solid-primitives/i18n"
+﻿import * as i18n from "@solid-primitives/i18n"
 import { Store } from "@tauri-apps/plugin-store"
 
 import { dict as desktopEn } from "./en"
@@ -175,7 +175,7 @@ export function initI18n(): Promise<Locale> {
   if (cached) return cached
 
   const promise = (async () => {
-    const store = await Store.load("opencode.global.dat").catch(() => null)
+    const store = await Store.load("papecode.global.dat").catch(() => null)
     if (!store) return state.locale
 
     const raw = await store.get("language").catch(() => null)

@@ -1,4 +1,4 @@
-name: release-github-action
+﻿name: release-github-action
 
 on:
   push:
@@ -24,6 +24,6 @@ jobs:
 
       - name: Release
         run: |
-          git config --global user.email "opencode@sst.dev"
-          git config --global user.name "opencode"
+          git config --global user.email "papecode@sst.dev"
+          git config --global user.name "papecode"
           ./github/script/release

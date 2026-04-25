@@ -1,6 +1,6 @@
-# OpenCode Desktop
+﻿# PapeCode Desktop
 
-Native OpenCode desktop app, built with Tauri v2.
+Native PapeCode desktop app, built with Tauri v2.
 
 ## Prerequisites
 

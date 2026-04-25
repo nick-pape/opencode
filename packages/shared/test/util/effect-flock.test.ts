@@ -1,14 +1,14 @@
-import { describe, expect } from "bun:test"
+﻿import { describe, expect } from "bun:test"
 import { spawn } from "child_process"
 import fs from "fs/promises"
 import path from "path"
 import os from "os"
 import { Cause, Effect, Exit, Layer } from "effect"
 import { testEffect } from "../lib/effect"
-import { AppFileSystem } from "@opencode-ai/shared/filesystem"
-import { EffectFlock } from "@opencode-ai/shared/util/effect-flock"
-import { Global } from "@opencode-ai/shared/global"
-import { Hash } from "@opencode-ai/shared/util/hash"
+import { AppFileSystem } from "@papecode-ai/shared/filesystem"
+import { EffectFlock } from "@papecode-ai/shared/util/effect-flock"
+import { Global } from "@papecode-ai/shared/global"
+import { Hash } from "@papecode-ai/shared/util/hash"
 
 function lock(dir: string, key: string) {
   return path.join(dir, Hash.fast(key) + ".lock")

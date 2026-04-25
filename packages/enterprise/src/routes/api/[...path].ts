@@ -1,4 +1,4 @@
-import type { APIEvent } from "@solidjs/start/server"
+﻿import type { APIEvent } from "@solidjs/start/server"
 import { Hono } from "hono"
 import { describeRoute, openAPIRouteHandler, resolver } from "hono-openapi"
 import { validator } from "hono-openapi"
@@ -16,9 +16,9 @@ app
     openAPIRouteHandler(app, {
       documentation: {
         info: {
-          title: "Opencode Enterprise API",
+          title: "Papecode Enterprise API",
           version: "1.0.0",
-          description: "Opencode Enterprise API endpoints",
+          description: "Papecode Enterprise API endpoints",
         },
         openapi: "3.1.1",
       },

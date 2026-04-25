@@ -1,4 +1,4 @@
-name: daily-pr-recap
+﻿name: daily-pr-recap
 
 on:
   schedule:
@@ -20,15 +20,15 @@ jobs:
 
       - uses: ./.github/actions/setup-bun
 
-      - name: Install opencode
-        run: curl -fsSL https://opencode.ai/install | bash
+      - name: Install papecode
+        run: curl -fsSL https://papecode.ai/install | bash
 
       - name: Generate daily PR recap
         id: recap
         env:
-          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          PAPECODE_API_KEY: ${{ secrets.PAPECODE_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OPENCODE_PERMISSION: |
+          PAPECODE_PERMISSION: |
             {
               "bash": {
                 "*": "deny",
@@ -42,7 +42,7 @@ jobs:
         run: |
           TODAY=$(date -u +%Y-%m-%d)
 
-          opencode run -m opencode/claude-sonnet-4-5 "Generate a daily PR activity recap for the OpenCode repository.
+          papecode run -m papecode/claude-sonnet-4-5 "Generate a daily PR activity recap for the PapeCode repository.
 
           TODAY'S DATE: ${TODAY}
 

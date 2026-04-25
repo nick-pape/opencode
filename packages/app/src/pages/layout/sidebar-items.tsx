@@ -1,10 +1,10 @@
-import type { Session } from "@opencode-ai/sdk/v2/client"
-import { Avatar } from "@opencode-ai/ui/avatar"
-import { Icon } from "@opencode-ai/ui/icon"
-import { IconButton } from "@opencode-ai/ui/icon-button"
-import { Spinner } from "@opencode-ai/ui/spinner"
-import { Tooltip } from "@opencode-ai/ui/tooltip"
-import { getFilename } from "@opencode-ai/shared/util/path"
+﻿import type { Session } from "@papecode-ai/sdk/v2/client"
+import { Avatar } from "@papecode-ai/ui/avatar"
+import { Icon } from "@papecode-ai/ui/icon"
+import { IconButton } from "@papecode-ai/ui/icon-button"
+import { Spinner } from "@papecode-ai/ui/spinner"
+import { Tooltip } from "@papecode-ai/ui/tooltip"
+import { getFilename } from "@papecode-ai/shared/util/path"
 import { A, useParams } from "@solidjs/router"
 import { type Accessor, createMemo, For, type JSX, Match, Show, Switch } from "solid-js"
 import { useGlobalSync } from "@/context/global-sync"
@@ -17,11 +17,11 @@ import { sessionTitle } from "@/utils/session-title"
 import { sessionPermissionRequest } from "../session/composer/session-request-tree"
 import { childSessionOnPath, hasProjectPermissions } from "./helpers"
 
-const OPENCODE_PROJECT_ID = "4b0ea68d7af9a6031a7ffda7ad66e0cb83315750"
+const PAPECODE_PROJECT_ID = "4b0ea68d7af9a6031a7ffda7ad66e0cb83315750"
 
 export function getProjectAvatarSource(id?: string, icon?: { color?: string; url?: string; override?: string }) {
-  return id === OPENCODE_PROJECT_ID
-    ? "https://opencode.ai/favicon.svg"
+  return id === PAPECODE_PROJECT_ID
+    ? "https://papecode.ai/favicon.svg"
     : (icon?.override ?? (icon?.color ? undefined : icon?.url))
 }
 

@@ -1,5 +1,5 @@
-{
-  "name": "@opencode-ai/ui",
+﻿{
+  "name": "@papecode-ai/ui",
   "version": "1.14.24",
   "type": "module",
   "license": "MIT",
@@ -43,8 +43,8 @@
   },
   "dependencies": {
     "@kobalte/core": "catalog:",
-    "@opencode-ai/sdk": "workspace:*",
-    "@opencode-ai/shared": "workspace:*",
+    "@papecode-ai/sdk": "workspace:*",
+    "@papecode-ai/shared": "workspace:*",
     "@pierre/diffs": "catalog:",
     "@shikijs/transformers": "3.9.2",
     "@solid-primitives/bounds": "0.1.3",

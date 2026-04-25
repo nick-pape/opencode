@@ -1,4 +1,4 @@
-.DS_Store
+﻿.DS_Store
 node_modules
 .worktrees
 .sst
@@ -17,14 +17,14 @@ ts-dist
 /result
 refs
 Session.vim
-/opencode.json
+/papecode.json
 a.out
 target
 .scripts
 .direnv/
 
 # Local dev files
-opencode-dev
+papecode-dev
 UPCOMING_CHANGELOG.md
 logs/
 *.bun-build

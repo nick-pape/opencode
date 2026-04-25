@@ -1,4 +1,4 @@
-# Vouched contributors for this project.
+﻿# Vouched contributors for this project.
 #
 # See https://github.com/mitchellh/vouch for details.
 #
@@ -21,8 +21,8 @@ iamdavidhill
 jayair
 kitlangton
 kommander
--opencode2026
--opencodeengineer bot that spams issues
+-papecode2026
+-papecodeengineer bot that spams issues
 r44vc0rp
 rekram1-node
 -ricardo-m-l

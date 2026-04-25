@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+﻿#!/usr/bin/env bash
 set -euo pipefail
 
 # Get the latest Git tag
@@ -12,10 +12,10 @@ version=$(echo "$latest_tag" | sed 's/^vscode-v//')
 echo "Latest version: $version"
 
 # package-marketplace
-vsce package --no-git-tag-version --no-update-package-json --no-dependencies --skip-license -o dist/opencode.vsix "$version"
+vsce package --no-git-tag-version --no-update-package-json --no-dependencies --skip-license -o dist/papecode.vsix "$version"
 
 # publish-marketplace
-vsce publish --packagePath dist/opencode.vsix
+vsce publish --packagePath dist/papecode.vsix
 
 # publish-openvsx
-npx ovsx publish dist/opencode.vsix -p "$OPENVSX_TOKEN"
+npx ovsx publish dist/papecode.vsix -p "$OPENVSX_TOKEN"
