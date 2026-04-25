@@ -14,8 +14,10 @@ import { CodexAuthPlugin } from "./codex"
 import { Session } from "../session"
 import { NamedError } from "@papecode-ai/shared/util/error"
 import { CopilotAuthPlugin } from "./github-copilot/copilot"
-import { gitlabAuthPlugin as GitlabAuthPlugin } from "opencode-gitlab-auth"
-import { PoeAuthPlugin } from "opencode-poe-auth"
+import { gitlabAuthPlugin as _GitlabAuthPlugin } from "opencode-gitlab-auth"
+import { PoeAuthPlugin as _PoeAuthPlugin } from "opencode-poe-auth"
+const GitlabAuthPlugin = _GitlabAuthPlugin as unknown as PluginInstance
+const PoeAuthPlugin = _PoeAuthPlugin as unknown as PluginInstance
 import { CloudflareAIGatewayAuthPlugin, CloudflareWorkersAuthPlugin } from "./cloudflare"
 import { Effect, Layer, Context, Stream } from "effect"
 import { EffectBridge } from "@/effect"
