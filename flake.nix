@@ -1,4 +1,4 @@
-﻿{
+{
   description = "PapeCode development flake";
 
   inputs = {

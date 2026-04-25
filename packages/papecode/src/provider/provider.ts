@@ -1,4 +1,4 @@
-﻿import os from "os"
+import os from "os"
 import fuzzysort from "fuzzysort"
 import { Config } from "../config"
 import { mapValues, mergeDeep, omit, pickBy, sortBy } from "remeda"

@@ -1,4 +1,4 @@
-﻿import type { MiddlewareHandler } from "hono"
+import type { MiddlewareHandler } from "hono"
 import type { UpgradeWebSocket } from "hono/ws"
 import { getAdaptor } from "@/control-plane/adaptors"
 import { WorkspaceID } from "@/control-plane/schema"

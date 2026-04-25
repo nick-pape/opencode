@@ -1,4 +1,4 @@
-﻿import type { AuthOAuthResult, Hooks } from "@papecode-ai/plugin"
+import type { AuthOAuthResult, Hooks } from "@papecode-ai/plugin"
 import { Auth } from "@/auth"
 import { InstanceState } from "@/effect"
 import { zod } from "@/util/effect-zod"

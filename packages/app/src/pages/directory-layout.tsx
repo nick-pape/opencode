@@ -1,4 +1,4 @@
-﻿import { DataProvider } from "@papecode-ai/ui/context"
+import { DataProvider } from "@papecode-ai/ui/context"
 import { showToast } from "@papecode-ai/ui/toast"
 import { base64Encode } from "@papecode-ai/shared/util/encode"
 import { useLocation, useNavigate, useParams } from "@solidjs/router"

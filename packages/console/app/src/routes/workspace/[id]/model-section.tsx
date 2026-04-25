@@ -1,4 +1,4 @@
-﻿import { Model } from "@papecode-ai/console-core/model.js"
+import { Model } from "@papecode-ai/console-core/model.js"
 import { query, action, useParams, createAsync, json } from "@solidjs/router"
 import { createMemo, For, Show } from "solid-js"
 import { withActor } from "~/context/auth.withActor"

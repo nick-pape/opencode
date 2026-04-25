@@ -1,4 +1,4 @@
-﻿import { describe, expect, test } from "bun:test"
+import { describe, expect, test } from "bun:test"
 import path from "path"
 import { Module } from "@papecode-ai/shared/util/module"
 import { Filesystem } from "../../src/util"

@@ -1,4 +1,4 @@
-﻿import { Effect, Exit, Layer, PubSub, Scope, Context, Stream, Schema } from "effect"
+import { Effect, Exit, Layer, PubSub, Scope, Context, Stream, Schema } from "effect"
 import { EffectBridge } from "@/effect"
 import { Log } from "../util"
 import { BusEvent } from "./bus-event"

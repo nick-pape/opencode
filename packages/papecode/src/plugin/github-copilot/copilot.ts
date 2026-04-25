@@ -1,4 +1,4 @@
-﻿import type { Hooks, PluginInput } from "@papecode-ai/plugin"
+import type { Hooks, PluginInput } from "@papecode-ai/plugin"
 import type { Model } from "@papecode-ai/sdk/v2"
 import { InstallationVersion } from "@/installation/version"
 import { iife } from "@/util/iife"

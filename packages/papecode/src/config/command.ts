@@ -1,4 +1,4 @@
-﻿export * as ConfigCommand from "./command"
+export * as ConfigCommand from "./command"
 
 import { Log } from "../util"
 import { Schema } from "effect"

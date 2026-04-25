@@ -1,4 +1,4 @@
-﻿name: "papecode GitHub Action"
+name: "papecode GitHub Action"
 description: "Run papecode in GitHub Actions workflows"
 branding:
   icon: "code"

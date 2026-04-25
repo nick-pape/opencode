@@ -1,4 +1,4 @@
-﻿import { parseDiffFromFile, type FileDiffMetadata } from "@pierre/diffs"
+import { parseDiffFromFile, type FileDiffMetadata } from "@pierre/diffs"
 import { formatPatch, parsePatch, structuredPatch } from "diff"
 import type { SnapshotFileDiff, VcsFileDiff } from "@papecode-ai/sdk/v2"
 

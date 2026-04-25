@@ -1,4 +1,4 @@
-﻿import { Effect, Option, Schema, Scope } from "effect"
+import { Effect, Option, Schema, Scope } from "effect"
 import { createReadStream } from "fs"
 import * as path from "path"
 import { createInterface } from "readline"

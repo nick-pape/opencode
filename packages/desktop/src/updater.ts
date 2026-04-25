@@ -1,4 +1,4 @@
-﻿import { check } from "@tauri-apps/plugin-updater"
+import { check } from "@tauri-apps/plugin-updater"
 import { relaunch } from "@tauri-apps/plugin-process"
 import { ask, message } from "@tauri-apps/plugin-dialog"
 import { type as ostype } from "@tauri-apps/plugin-os"

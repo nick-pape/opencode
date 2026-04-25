@@ -1,4 +1,4 @@
-﻿import { BusEvent } from "@/bus/bus-event"
+import { BusEvent } from "@/bus/bus-event"
 import z from "zod"
 import { Schema } from "effect"
 import { NamedError } from "@papecode-ai/shared/util/error"

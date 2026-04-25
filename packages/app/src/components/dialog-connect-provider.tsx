@@ -1,4 +1,4 @@
-﻿import type { ProviderAuthAuthorization, ProviderAuthMethod } from "@papecode-ai/sdk/v2/client"
+import type { ProviderAuthAuthorization, ProviderAuthMethod } from "@papecode-ai/sdk/v2/client"
 import { Button } from "@papecode-ai/ui/button"
 import { useDialog } from "@papecode-ai/ui/context/dialog"
 import { Dialog } from "@papecode-ai/ui/dialog"

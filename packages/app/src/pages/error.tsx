@@ -1,4 +1,4 @@
-﻿import { TextField } from "@papecode-ai/ui/text-field"
+import { TextField } from "@papecode-ai/ui/text-field"
 import { Logo } from "@papecode-ai/ui/logo"
 import { Button } from "@papecode-ai/ui/button"
 import { Component, Show } from "solid-js"

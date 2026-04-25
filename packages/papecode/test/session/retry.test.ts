@@ -1,4 +1,4 @@
-﻿import { describe, expect, test } from "bun:test"
+import { describe, expect, test } from "bun:test"
 import type { NamedError } from "@papecode-ai/shared/util/error"
 import { APICallError } from "ai"
 import { setTimeout as sleep } from "node:timers/promises"

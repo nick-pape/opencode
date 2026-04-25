@@ -1,4 +1,4 @@
-﻿{
+{
   "ollama-cloud": {
     "id": "ollama-cloud",
     "env": ["OLLAMA_API_KEY"],

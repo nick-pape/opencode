@@ -1,4 +1,4 @@
-﻿import { Server } from "../../server/server"
+import { Server } from "../../server/server"
 import { UI } from "../ui"
 import { cmd } from "./cmd"
 import { withNetworkOptions, resolveNetworkOptions } from "../network"

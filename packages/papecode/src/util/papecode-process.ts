@@ -1,4 +1,4 @@
-﻿export const PAPECODE_RUN_ID = "PAPECODE_RUN_ID"
+export const PAPECODE_RUN_ID = "PAPECODE_RUN_ID"
 export const PAPECODE_PROCESS_ROLE = "PAPECODE_PROCESS_ROLE"
 
 export function ensureRunID() {

@@ -1,4 +1,4 @@
-﻿import path from "path"
+import path from "path"
 import fs from "fs/promises"
 import { createWriteStream } from "fs"
 import { Global } from "../global"

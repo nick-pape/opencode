@@ -1,4 +1,4 @@
-﻿import { Database, eq, and, sql, inArray } from "@papecode-ai/console-core/drizzle/index.js"
+import { Database, eq, and, sql, inArray } from "@papecode-ai/console-core/drizzle/index.js"
 import { IpRateLimitTable } from "@papecode-ai/console-core/schema/ip.sql.js"
 import { FreeUsageLimitError } from "./error"
 import { logger } from "./logger"

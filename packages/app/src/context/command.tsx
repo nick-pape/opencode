@@ -1,4 +1,4 @@
-﻿import { createSimpleContext } from "@papecode-ai/ui/context"
+import { createSimpleContext } from "@papecode-ai/ui/context"
 import { useDialog } from "@papecode-ai/ui/context/dialog"
 import { type Accessor, createEffect, createMemo, onCleanup, onMount } from "solid-js"
 import { createStore } from "solid-js/store"

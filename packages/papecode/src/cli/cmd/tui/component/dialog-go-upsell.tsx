@@ -1,4 +1,4 @@
-﻿import { BoxRenderable, RGBA, TextAttributes } from "@opentui/core"
+import { BoxRenderable, RGBA, TextAttributes } from "@opentui/core"
 import { useKeyboard } from "@opentui/solid"
 import open from "open"
 import { createSignal, onCleanup, onMount } from "solid-js"

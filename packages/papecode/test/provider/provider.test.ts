@@ -1,4 +1,4 @@
-﻿import { test, expect } from "bun:test"
+import { test, expect } from "bun:test"
 import { mkdir, unlink } from "fs/promises"
 import path from "path"
 

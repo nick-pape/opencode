@@ -1,4 +1,4 @@
-﻿import z from "zod"
+import z from "zod"
 import { NamedError } from "@papecode-ai/shared/util/error"
 import { Global } from "../global"
 import { Instance } from "../project/instance"

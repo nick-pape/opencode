@@ -1,4 +1,4 @@
-﻿import { spyOn } from "bun:test"
+import { spyOn } from "bun:test"
 import path from "path"
 import { TuiConfig } from "../../src/cli/cmd/tui/config/tui"
 

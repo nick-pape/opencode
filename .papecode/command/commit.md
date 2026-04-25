@@ -1,4 +1,4 @@
-﻿---
+---
 description: git commit and push
 model: papecode/kimi-k2.5
 subtask: true

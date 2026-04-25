@@ -1,4 +1,4 @@
-﻿import { Schema } from "effect"
+import { Schema } from "effect"
 import { SessionEvent } from "./session-event"
 
 export const ID = SessionEvent.ID

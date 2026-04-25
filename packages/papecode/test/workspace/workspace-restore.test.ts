@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, mock, spyOn, test } from "bun:test"
+import { afterEach, beforeEach, describe, expect, mock, spyOn, test } from "bun:test"
 import fs from "node:fs/promises"
 import path from "node:path"
 import { GlobalBus } from "../../src/bus/global"

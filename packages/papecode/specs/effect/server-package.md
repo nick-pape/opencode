@@ -1,4 +1,4 @@
-﻿# Server package extraction
+# Server package extraction
 
 Practical reference for extracting a future `packages/server` from the current `packages/papecode` monolith while `packages/core` is still being migrated to Effect.
 

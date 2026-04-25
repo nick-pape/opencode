@@ -1,4 +1,4 @@
-﻿import { defineConfig } from "electron-vite"
+import { defineConfig } from "electron-vite"
 import appPlugin from "@papecode-ai/app/vite"
 import * as fs from "node:fs/promises"
 

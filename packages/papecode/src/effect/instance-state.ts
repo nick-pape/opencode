@@ -1,4 +1,4 @@
-﻿import { Effect, Fiber, ScopedCache, Scope, Context } from "effect"
+import { Effect, Fiber, ScopedCache, Scope, Context } from "effect"
 import * as EffectLogger from "./logger"
 import { Instance, type InstanceContext } from "@/project/instance"
 import { LocalContext } from "@/util"

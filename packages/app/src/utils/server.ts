@@ -1,4 +1,4 @@
-﻿﻿import { createPapecodeClient } from "@papecode-ai/sdk/v2/client"
+﻿import { createPapecodeClient } from "@papecode-ai/sdk/v2/client"
 import type { ServerConnection } from "@/context/server"
 
 export function createSdkForServer({

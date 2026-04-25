@@ -1,4 +1,4 @@
-﻿import { Player } from "cli-sound"
+import { Player } from "cli-sound"
 import { mkdirSync } from "node:fs"
 import { tmpdir } from "node:os"
 import { basename, join } from "node:path"

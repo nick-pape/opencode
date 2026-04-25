@@ -1,4 +1,4 @@
-﻿import { createMemo, For, Match, Switch } from "solid-js"
+import { createMemo, For, Match, Switch } from "solid-js"
 import { Button } from "@papecode-ai/ui/button"
 import { Logo } from "@papecode-ai/ui/logo"
 import { useLayout } from "@/context/layout"

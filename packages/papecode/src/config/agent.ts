@@ -1,4 +1,4 @@
-﻿export * as ConfigAgent from "./agent"
+export * as ConfigAgent from "./agent"
 
 import { Schema } from "effect"
 import z from "zod"

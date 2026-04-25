@@ -1,4 +1,4 @@
-﻿import { For, Show, createMemo } from "solid-js"
+import { For, Show, createMemo } from "solid-js"
 import { createStore } from "solid-js/store"
 import { Button } from "@papecode-ai/ui/button"
 import { DockTray } from "@papecode-ai/ui/dock-surface"

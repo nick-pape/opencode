@@ -1,4 +1,4 @@
-﻿---
+---
 description: "find issue(s) on github"
 model: papecode/claude-haiku-4-5
 ---

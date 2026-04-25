@@ -1,4 +1,4 @@
-﻿﻿import type { McpServer } from "@agentclientprotocol/sdk"
+﻿import type { McpServer } from "@agentclientprotocol/sdk"
 import type { PapecodeClient } from "@papecode-ai/sdk/v2"
 import type { ProviderID, ModelID } from "../provider/schema"
 

@@ -1,4 +1,4 @@
-﻿import { useFilteredList } from "@papecode-ai/ui/hooks"
+import { useFilteredList } from "@papecode-ai/ui/hooks"
 import { getDirectory, getFilename } from "@papecode-ai/shared/util/path"
 import { createSignal, For, onMount, Show, splitProps, type JSX } from "solid-js"
 import { Button } from "./button"

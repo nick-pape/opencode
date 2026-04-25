@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, test } from "bun:test"
+import { afterEach, beforeEach, describe, expect, test } from "bun:test"
 import path from "path"
 import { Effect } from "effect"
 import { ModelID, ProviderID } from "../../src/provider/schema"

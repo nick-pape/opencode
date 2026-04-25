@@ -1,4 +1,4 @@
-﻿import type { Event } from "@papecode-ai/sdk/v2/client"
+import type { Event } from "@papecode-ai/sdk/v2/client"
 import { createSimpleContext } from "@papecode-ai/ui/context"
 import { createGlobalEmitter } from "@solid-primitives/event-bus"
 import { makeEventListener } from "@solid-primitives/event-listener"

@@ -1,4 +1,4 @@
-﻿import { Component } from "solid-js"
+import { Component } from "solid-js"
 import { Dialog } from "@papecode-ai/ui/dialog"
 import { Tabs } from "@papecode-ai/ui/tabs"
 import { Icon } from "@papecode-ai/ui/icon"

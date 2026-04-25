@@ -1,4 +1,4 @@
-﻿import { Hono } from "hono"
+import { Hono } from "hono"
 import type { UpgradeWebSocket } from "hono/ws"
 import { Log } from "@/util"
 import * as Fence from "./fence"

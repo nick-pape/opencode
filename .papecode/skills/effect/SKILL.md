@@ -1,4 +1,4 @@
-﻿---
+---
 name: effect
 description: Answer questions about the Effect framework
 ---

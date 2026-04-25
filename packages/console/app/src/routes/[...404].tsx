@@ -1,4 +1,4 @@
-﻿import "./[...404].css"
+import "./[...404].css"
 import { Title } from "@solidjs/meta"
 import { HttpStatusCode } from "@solidjs/start"
 import logoLight from "../asset/logo-ornate-light.svg"

@@ -1,4 +1,4 @@
-﻿name: papecode
+name: papecode
 
 on:
   issue_comment:

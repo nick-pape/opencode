@@ -1,4 +1,4 @@
-﻿import * as i18n from "@solid-primitives/i18n"
+import * as i18n from "@solid-primitives/i18n"
 import { Store } from "@tauri-apps/plugin-store"
 
 import { dict as desktopEn } from "./en"

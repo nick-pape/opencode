@@ -1,4 +1,4 @@
-﻿import { getFilename } from "@papecode-ai/shared/util/path"
+import { getFilename } from "@papecode-ai/shared/util/path"
 import { type Session } from "@papecode-ai/sdk/v2/client"
 
 type SessionStore = {

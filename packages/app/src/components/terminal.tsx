@@ -1,4 +1,4 @@
-﻿import { withAlpha } from "@papecode-ai/ui/theme/color"
+import { withAlpha } from "@papecode-ai/ui/theme/color"
 import { useTheme } from "@papecode-ai/ui/theme/context"
 import { resolveThemeVariant } from "@papecode-ai/ui/theme/resolve"
 import type { HexColor } from "@papecode-ai/ui/theme/types"

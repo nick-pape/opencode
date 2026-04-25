@@ -1,4 +1,4 @@
-﻿import { ZenData } from "@papecode-ai/console-core/model.js"
+import { ZenData } from "@papecode-ai/console-core/model.js"
 import {
   fromAnthropicChunk,
   fromAnthropicRequest,

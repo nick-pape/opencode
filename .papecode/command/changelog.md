@@ -1,4 +1,4 @@
-﻿---
+---
 model: papecode/gpt-5.4
 ---
 

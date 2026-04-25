@@ -1,4 +1,4 @@
-﻿import z from "zod"
+import z from "zod"
 import { EOL } from "os"
 import { NamedError } from "@papecode-ai/shared/util/error"
 import { logo as glyphs } from "./logo"

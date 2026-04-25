@@ -1,4 +1,4 @@
-﻿﻿import type { Argv } from "yargs"
+﻿import type { Argv } from "yargs"
 import path from "path"
 import { pathToFileURL } from "url"
 import { UI } from "../ui"

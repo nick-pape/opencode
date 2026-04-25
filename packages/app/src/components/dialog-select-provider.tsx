@@ -1,4 +1,4 @@
-﻿import { Component, Show } from "solid-js"
+import { Component, Show } from "solid-js"
 import { useDialog } from "@papecode-ai/ui/context/dialog"
 import { popularProviders, useProviders } from "@/hooks/use-providers"
 import { Dialog } from "@papecode-ai/ui/dialog"

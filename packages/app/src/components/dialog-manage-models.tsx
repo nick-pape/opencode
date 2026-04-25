@@ -1,4 +1,4 @@
-﻿import { Dialog } from "@papecode-ai/ui/dialog"
+import { Dialog } from "@papecode-ai/ui/dialog"
 import { List } from "@papecode-ai/ui/list"
 import { Switch } from "@papecode-ai/ui/switch"
 import { Tooltip } from "@papecode-ai/ui/tooltip"

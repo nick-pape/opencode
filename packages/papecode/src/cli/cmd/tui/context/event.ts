@@ -1,4 +1,4 @@
-﻿import type { Event } from "@papecode-ai/sdk/v2"
+import type { Event } from "@papecode-ai/sdk/v2"
 import { useProject } from "./project"
 import { useSDK } from "./sdk"
 

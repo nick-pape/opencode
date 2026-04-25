@@ -1,4 +1,4 @@
-﻿import { Component, For, Show } from "solid-js"
+import { Component, For, Show } from "solid-js"
 import { Icon } from "@papecode-ai/ui/icon"
 import { Tooltip } from "@papecode-ai/ui/tooltip"
 import type { ImageAttachmentPart } from "@/context/prompt"

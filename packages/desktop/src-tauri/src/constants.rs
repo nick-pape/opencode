@@ -1,4 +1,4 @@
-﻿use tauri_plugin_window_state::StateFlags;
+use tauri_plugin_window_state::StateFlags;
 
 pub const SETTINGS_STORE: &str = "papecode.settings.dat";
 pub const DEFAULT_SERVER_URL_KEY: &str = "defaultServerUrl";

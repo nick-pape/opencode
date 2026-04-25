@@ -1,4 +1,4 @@
-﻿import { describe, expect, test } from "bun:test"
+import { describe, expect, test } from "bun:test"
 import path from "path"
 import { Effect } from "effect"
 import { Agent } from "../../src/agent/agent"

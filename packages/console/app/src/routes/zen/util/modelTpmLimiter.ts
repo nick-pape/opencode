@@ -1,4 +1,4 @@
-﻿import { and, Database, eq, inArray, sql } from "@papecode-ai/console-core/drizzle/index.js"
+import { and, Database, eq, inArray, sql } from "@papecode-ai/console-core/drizzle/index.js"
 import { ModelTpmRateLimitTable } from "@papecode-ai/console-core/schema/ip.sql.js"
 import { UsageInfo } from "./provider/provider"
 

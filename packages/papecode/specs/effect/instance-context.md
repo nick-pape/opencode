@@ -1,4 +1,4 @@
-﻿# Instance context migration
+# Instance context migration
 
 Practical plan for retiring the promise-backed / ALS-backed `Instance` helper in `src/project/instance.ts` and moving instance selection fully into Effect-provided scope.
 

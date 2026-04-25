@@ -1,4 +1,4 @@
-﻿import os from "os"
+import os from "os"
 import path from "path"
 import { Effect, Layer, Context } from "effect"
 import { FetchHttpClient, HttpClient, HttpClientRequest } from "effect/unstable/http"

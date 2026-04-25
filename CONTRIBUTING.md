@@ -1,4 +1,4 @@
-﻿# Contributing to PapeCode
+# Contributing to PapeCode
 
 We want to make it easy for you to contribute to PapeCode. Here are the most common type of changes that get merged:
 

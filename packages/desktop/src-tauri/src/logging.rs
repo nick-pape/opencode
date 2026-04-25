@@ -1,4 +1,4 @@
-﻿use std::fs::File;
+use std::fs::File;
 use std::io::{BufRead, BufReader};
 use std::path::{Path, PathBuf};
 use tracing_appender::non_blocking::WorkerGuard;

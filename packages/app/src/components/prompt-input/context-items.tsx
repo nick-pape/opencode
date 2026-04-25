@@ -1,4 +1,4 @@
-﻿import { Component, For, Show } from "solid-js"
+import { Component, For, Show } from "solid-js"
 import { FileIcon } from "@papecode-ai/ui/file-icon"
 import { IconButton } from "@papecode-ai/ui/icon-button"
 import { Tooltip } from "@papecode-ai/ui/tooltip"

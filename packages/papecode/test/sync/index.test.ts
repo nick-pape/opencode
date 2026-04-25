@@ -1,4 +1,4 @@
-﻿import { describe, test, expect, beforeEach, afterEach, afterAll } from "bun:test"
+import { describe, test, expect, beforeEach, afterEach, afterAll } from "bun:test"
 import { tmpdir } from "../fixture/fixture"
 import { Schema } from "effect"
 import { Bus } from "../../src/bus"

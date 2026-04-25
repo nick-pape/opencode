@@ -1,4 +1,4 @@
-﻿/// <reference path="../env.d.ts" />
+/// <reference path="../env.d.ts" />
 import { tool } from "@papecode-ai/plugin"
 const TEAM = {
   desktop: ["adamdotdevin", "iamdavidhill", "Brendonovich", "nexxeln"],

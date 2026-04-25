@@ -1,4 +1,4 @@
-﻿export * as Npm from "."
+export * as Npm from "."
 
 import path from "path"
 import { fileURLToPath } from "url"

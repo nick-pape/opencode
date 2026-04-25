@@ -1,4 +1,4 @@
-﻿import { render } from "solid-js/web"
+import { render } from "solid-js/web"
 import { MetaProvider } from "@solidjs/meta"
 import "@papecode-ai/app/index.css"
 import { Font } from "@papecode-ai/ui/font"

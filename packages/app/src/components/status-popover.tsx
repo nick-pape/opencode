@@ -1,4 +1,4 @@
-﻿import { Button } from "@papecode-ai/ui/button"
+import { Button } from "@papecode-ai/ui/button"
 import { Icon } from "@papecode-ai/ui/icon"
 import { Popover } from "@papecode-ai/ui/popover"
 import { Suspense, createMemo, createSignal, lazy, Show } from "solid-js"

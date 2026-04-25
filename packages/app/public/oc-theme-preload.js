@@ -1,4 +1,4 @@
-﻿;(function () {
+;(function () {
   var key = "papecode-theme-id"
   var themeId = localStorage.getItem(key) || "oc-2"
 

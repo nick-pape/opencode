@@ -1,4 +1,4 @@
-﻿use crate::{
+use crate::{
     constants::{UPDATER_ENABLED, window_state_flags},
     server::get_wsl_config,
 };

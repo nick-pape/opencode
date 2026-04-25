@@ -1,4 +1,4 @@
-﻿import { Menu, MenuItem, PredefinedMenuItem, Submenu } from "@tauri-apps/api/menu"
+import { Menu, MenuItem, PredefinedMenuItem, Submenu } from "@tauri-apps/api/menu"
 import { openUrl } from "@tauri-apps/plugin-opener"
 import { type as ostype } from "@tauri-apps/plugin-os"
 import { relaunch } from "@tauri-apps/plugin-process"

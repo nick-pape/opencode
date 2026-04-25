@@ -1,4 +1,4 @@
-﻿import z from "zod"
+import z from "zod"
 import { Database, eq } from "@/storage"
 import { GlobalBus } from "@/bus/global"
 import { Bus as ProjectBus } from "@/bus"

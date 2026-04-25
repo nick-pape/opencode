@@ -1,4 +1,4 @@
-﻿import { Schema } from "effect"
+import { Schema } from "effect"
 
 import { zod } from "@/util/effect-zod"
 import { withStatics } from "@/util/schema"

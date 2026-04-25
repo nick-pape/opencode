@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bun
+#!/usr/bin/env bun
 
 import { Buffer } from "node:buffer"
 import { $ } from "bun"

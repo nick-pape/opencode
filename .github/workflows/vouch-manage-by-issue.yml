@@ -1,4 +1,4 @@
-﻿name: vouch-manage-by-issue
+name: vouch-manage-by-issue
 
 on:
   issue_comment:

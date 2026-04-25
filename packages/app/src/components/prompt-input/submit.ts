@@ -1,4 +1,4 @@
-﻿import type { Message, Session } from "@papecode-ai/sdk/v2/client"
+import type { Message, Session } from "@papecode-ai/sdk/v2/client"
 import { showToast } from "@papecode-ai/ui/toast"
 import { base64Encode } from "@papecode-ai/shared/util/encode"
 import { Binary } from "@papecode-ai/shared/util/binary"

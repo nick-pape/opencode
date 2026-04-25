@@ -1,4 +1,4 @@
-﻿import { Resource } from "@papecode-ai/console-resource"
+import { Resource } from "@papecode-ai/console-resource"
 import { Actor } from "@papecode-ai/console-core/actor.js"
 import { action, json, query } from "@solidjs/router"
 import { withActor } from "~/context/auth.withActor"

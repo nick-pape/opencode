@@ -1,4 +1,4 @@
-﻿import { cmd } from "./cmd"
+import { cmd } from "./cmd"
 import * as prompts from "@clack/prompts"
 import { AppRuntime } from "@/effect/app-runtime"
 import { UI } from "../ui"

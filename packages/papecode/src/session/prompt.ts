@@ -1,4 +1,4 @@
-﻿import path from "path"
+import path from "path"
 import os from "os"
 import z from "zod"
 import * as EffectZod from "@/util/effect-zod"

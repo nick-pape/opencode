@@ -1,4 +1,4 @@
-﻿import { Slug } from "@papecode-ai/shared/util/slug"
+import { Slug } from "@papecode-ai/shared/util/slug"
 import path from "path"
 import { BusEvent } from "@/bus/bus-event"
 import { Bus } from "@/bus"

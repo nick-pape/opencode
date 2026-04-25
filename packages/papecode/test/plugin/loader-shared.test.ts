@@ -1,4 +1,4 @@
-﻿import { afterAll, afterEach, describe, expect, spyOn, test } from "bun:test"
+import { afterAll, afterEach, describe, expect, spyOn, test } from "bun:test"
 import { Effect } from "effect"
 import fs from "fs/promises"
 import path from "path"

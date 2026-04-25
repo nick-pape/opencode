@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "PapeCode Beta",
   "identifier": "ai.papecode.desktop.beta",

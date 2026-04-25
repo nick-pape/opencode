@@ -1,4 +1,4 @@
-﻿import { Button } from "@papecode-ai/ui/button"
+import { Button } from "@papecode-ai/ui/button"
 import { useDialog } from "@papecode-ai/ui/context/dialog"
 import { ProviderIcon } from "@papecode-ai/ui/provider-icon"
 import { Tag } from "@papecode-ai/ui/tag"

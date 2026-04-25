@@ -1,4 +1,4 @@
-﻿import type { Argv } from "yargs"
+import type { Argv } from "yargs"
 import type { Session as SDKSession, Message, Part } from "@papecode-ai/sdk/v2"
 import { Session } from "../../session"
 import { MessageV2 } from "../../session/message-v2"

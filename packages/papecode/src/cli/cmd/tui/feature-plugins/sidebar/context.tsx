@@ -1,4 +1,4 @@
-﻿import type { AssistantMessage } from "@papecode-ai/sdk/v2"
+import type { AssistantMessage } from "@papecode-ai/sdk/v2"
 import type { TuiPlugin, TuiPluginApi, TuiPluginModule } from "@papecode-ai/plugin/tui"
 import { createMemo } from "solid-js"
 

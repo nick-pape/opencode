@@ -1,4 +1,4 @@
-﻿import { Glob } from "@papecode-ai/shared/util/glob"
+import { Glob } from "@papecode-ai/shared/util/glob"
 import { Schema } from "effect"
 import { pathToFileURL } from "url"
 import { isPathPluginSpec, parsePluginSpecifier, resolvePathPluginTarget } from "@/plugin/shared"

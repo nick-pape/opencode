@@ -1,4 +1,4 @@
-﻿# papecode GitHub Action
+# papecode GitHub Action
 
 A GitHub Action that integrates [papecode](https://papecode.ai) directly into your GitHub workflow.
 

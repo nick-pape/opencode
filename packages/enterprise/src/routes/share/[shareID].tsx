@@ -1,4 +1,4 @@
-﻿import { Message, Model, Part, Session, SessionStatus, SnapshotFileDiff, UserMessage } from "@papecode-ai/sdk/v2"
+import { Message, Model, Part, Session, SessionStatus, SnapshotFileDiff, UserMessage } from "@papecode-ai/sdk/v2"
 import { SessionTurn } from "@papecode-ai/ui/session-turn"
 import { SessionReview } from "@papecode-ai/ui/session-review"
 import { DataProvider } from "@papecode-ai/ui/context"

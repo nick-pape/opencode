@@ -1,4 +1,4 @@
-﻿import type { SnapshotFileDiff, VcsFileDiff } from "@papecode-ai/sdk/v2"
+import type { SnapshotFileDiff, VcsFileDiff } from "@papecode-ai/sdk/v2"
 import type { Message } from "@papecode-ai/sdk/v2/client"
 
 type Diff = SnapshotFileDiff | VcsFileDiff

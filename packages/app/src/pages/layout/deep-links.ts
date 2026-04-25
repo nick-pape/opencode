@@ -1,4 +1,4 @@
-﻿export const deepLinkEvent = "papecode:deep-link"
+export const deepLinkEvent = "papecode:deep-link"
 
 const parseUrl = (input: string) => {
   if (!input.startsWith("papecode://")) return

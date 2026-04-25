@@ -1,4 +1,4 @@
-﻿import { GlobalBus } from "@/bus/global"
+import { GlobalBus } from "@/bus/global"
 import { disposeInstance } from "@/effect/instance-registry"
 import { makeRuntime } from "@/effect/run-service"
 import { AppFileSystem } from "@papecode-ai/shared/filesystem"

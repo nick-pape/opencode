@@ -1,4 +1,4 @@
-﻿---
+---
 mode: primary
 hidden: true
 model: papecode/minimax-m2.5

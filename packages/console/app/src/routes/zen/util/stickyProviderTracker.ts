@@ -1,4 +1,4 @@
-﻿import { Resource } from "@papecode-ai/console-resource"
+import { Resource } from "@papecode-ai/console-resource"
 
 export function createStickyTracker(stickyProvider: "strict" | "prefer" | undefined, session: string) {
   if (!stickyProvider) return

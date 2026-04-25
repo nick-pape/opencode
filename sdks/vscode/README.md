@@ -1,4 +1,4 @@
-﻿# papecode VS Code Extension
+# papecode VS Code Extension
 
 A Visual Studio Code extension that integrates [papecode](https://papecode.ai) directly into your development workflow.
 

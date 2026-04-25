@@ -1,4 +1,4 @@
-﻿import { createSimpleContext } from "@papecode-ai/ui/context"
+import { createSimpleContext } from "@papecode-ai/ui/context"
 import { checksum } from "@papecode-ai/shared/util/encode"
 import { useParams } from "@solidjs/router"
 import { batch, createMemo, createRoot, getOwner, onCleanup } from "solid-js"

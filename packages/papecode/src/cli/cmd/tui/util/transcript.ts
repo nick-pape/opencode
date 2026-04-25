@@ -1,4 +1,4 @@
-﻿import type { AssistantMessage, Part, Provider, UserMessage } from "@papecode-ai/sdk/v2"
+import type { AssistantMessage, Part, Provider, UserMessage } from "@papecode-ai/sdk/v2"
 import { Locale } from "@/util"
 import * as Model from "./model"
 

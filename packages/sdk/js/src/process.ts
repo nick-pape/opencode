@@ -1,4 +1,4 @@
-﻿import { type ChildProcess, spawnSync } from "node:child_process"
+import { type ChildProcess, spawnSync } from "node:child_process"
 
 // Duplicated from `packages/papecode/src/util/process.ts` because the SDK cannot
 // import `papecode` without creating a cycle (`papecode` depends on `@papecode-ai/sdk`).

@@ -1,4 +1,4 @@
-﻿import type { Todo } from "@papecode-ai/sdk/v2"
+import type { Todo } from "@papecode-ai/sdk/v2"
 import { AnimatedNumber } from "@papecode-ai/ui/animated-number"
 import { Checkbox } from "@papecode-ai/ui/checkbox"
 import { DockTray } from "@papecode-ai/ui/dock-surface"

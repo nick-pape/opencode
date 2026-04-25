@@ -1,4 +1,4 @@
-﻿import { action, useParams, useAction, useSubmission, json, query, createAsync } from "@solidjs/router"
+import { action, useParams, useAction, useSubmission, json, query, createAsync } from "@solidjs/router"
 import { createStore } from "solid-js/store"
 import { Show } from "solid-js"
 import { Billing } from "@papecode-ai/console-core/billing.js"

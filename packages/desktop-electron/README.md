@@ -1,4 +1,4 @@
-﻿# PapeCode Desktop
+# PapeCode Desktop
 
 Native PapeCode desktop app, built with Tauri v2.
 

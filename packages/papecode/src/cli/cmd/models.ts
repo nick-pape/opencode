@@ -1,4 +1,4 @@
-﻿﻿import type { Argv } from "yargs"
+﻿import type { Argv } from "yargs"
 import { Instance } from "../../project/instance"
 import { Provider } from "../../provider"
 import { ProviderID } from "../../provider/schema"

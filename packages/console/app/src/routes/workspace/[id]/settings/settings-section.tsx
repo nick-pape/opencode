@@ -1,4 +1,4 @@
-﻿import { json, action, useParams, useSubmission, createAsync, query } from "@solidjs/router"
+import { json, action, useParams, useSubmission, createAsync, query } from "@solidjs/router"
 import { createEffect, Show } from "solid-js"
 import { createStore } from "solid-js/store"
 import { withActor } from "~/context/auth.withActor"

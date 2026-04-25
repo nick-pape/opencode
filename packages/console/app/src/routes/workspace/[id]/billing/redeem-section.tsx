@@ -1,4 +1,4 @@
-﻿import { json, action, useParams, useSubmission } from "@solidjs/router"
+import { json, action, useParams, useSubmission } from "@solidjs/router"
 import { Show } from "solid-js"
 import { withActor } from "~/context/auth.withActor"
 import { Billing } from "@papecode-ai/console-core/billing.js"

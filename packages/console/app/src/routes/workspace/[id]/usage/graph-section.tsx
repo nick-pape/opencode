@@ -1,4 +1,4 @@
-﻿import { and, Database, eq, gte, inArray, isNull, lt, or, sql, sum } from "@papecode-ai/console-core/drizzle/index.js"
+import { and, Database, eq, gte, inArray, isNull, lt, or, sql, sum } from "@papecode-ai/console-core/drizzle/index.js"
 import { UsageTable } from "@papecode-ai/console-core/schema/billing.sql.js"
 import { KeyTable } from "@papecode-ai/console-core/schema/key.sql.js"
 import { UserTable } from "@papecode-ai/console-core/schema/user.sql.js"

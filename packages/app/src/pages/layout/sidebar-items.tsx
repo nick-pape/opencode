@@ -1,4 +1,4 @@
-﻿import type { Session } from "@papecode-ai/sdk/v2/client"
+import type { Session } from "@papecode-ai/sdk/v2/client"
 import { Avatar } from "@papecode-ai/ui/avatar"
 import { Icon } from "@papecode-ai/ui/icon"
 import { IconButton } from "@papecode-ai/ui/icon-button"

@@ -1,4 +1,4 @@
-﻿import { describe, expect, test } from "bun:test"
+import { describe, expect, test } from "bun:test"
 import { Project } from "../../src/project"
 import { Database, eq } from "../../src/storage"
 import { SessionTable } from "../../src/session/session.sql"

@@ -1,4 +1,4 @@
-﻿declare global {
+declare global {
   const PAPECODE_VERSION: string
   const PAPECODE_CHANNEL: string
 }

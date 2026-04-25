@@ -1,4 +1,4 @@
-﻿import { AppIcon } from "@papecode-ai/ui/app-icon"
+import { AppIcon } from "@papecode-ai/ui/app-icon"
 import { Button } from "@papecode-ai/ui/button"
 import { DropdownMenu } from "@papecode-ai/ui/dropdown-menu"
 import { Icon } from "@papecode-ai/ui/icon"

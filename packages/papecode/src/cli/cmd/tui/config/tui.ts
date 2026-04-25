@@ -1,4 +1,4 @@
-﻿export * as TuiConfig from "./tui"
+export * as TuiConfig from "./tui"
 
 import z from "zod"
 import { mergeDeep, unique } from "remeda"

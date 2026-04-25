@@ -1,4 +1,4 @@
-﻿import { createEffect, createMemo, onCleanup } from "solid-js"
+import { createEffect, createMemo, onCleanup } from "solid-js"
 import { createStore, produce } from "solid-js/store"
 import { createSimpleContext } from "@papecode-ai/ui/context"
 import type { PermissionRequest } from "@papecode-ai/sdk/v2/client"

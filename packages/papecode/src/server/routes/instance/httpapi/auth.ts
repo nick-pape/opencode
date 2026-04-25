@@ -1,4 +1,4 @@
-﻿import { Effect, Encoding, Layer, Redacted, Schema } from "effect"
+import { Effect, Encoding, Layer, Redacted, Schema } from "effect"
 import { HttpApiMiddleware, HttpApiSecurity } from "effect/unstable/httpapi"
 import { Flag } from "@/flag/flag"
 

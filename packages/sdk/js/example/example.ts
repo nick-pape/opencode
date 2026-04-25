@@ -1,4 +1,4 @@
-﻿﻿import { createPapecodeClient, createPapecodeServer } from "@papecode-ai/sdk"
+﻿import { createPapecodeClient, createPapecodeServer } from "@papecode-ai/sdk"
 import { pathToFileURL } from "bun"
 
 const server = await createPapecodeServer()

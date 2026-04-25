@@ -1,4 +1,4 @@
-﻿import { Database, eq, sql } from "@papecode-ai/console-core/drizzle/index.js"
+import { Database, eq, sql } from "@papecode-ai/console-core/drizzle/index.js"
 import { IpTable } from "@papecode-ai/console-core/schema/ip.sql.js"
 import { UsageInfo } from "./provider/provider"
 import { Subscription } from "@papecode-ai/console-core/subscription.js"

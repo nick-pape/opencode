@@ -1,4 +1,4 @@
-﻿import { UI } from "../ui"
+import { UI } from "../ui"
 import { cmd } from "./cmd"
 import { AppRuntime } from "@/effect/app-runtime"
 import { Git } from "@/git"

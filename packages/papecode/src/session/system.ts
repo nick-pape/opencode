@@ -1,4 +1,4 @@
-﻿import { Context, Effect, Layer } from "effect"
+import { Context, Effect, Layer } from "effect"
 
 import { Instance } from "../project/instance"
 

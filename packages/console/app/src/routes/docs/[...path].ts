@@ -1,4 +1,4 @@
-﻿import type { APIEvent } from "@solidjs/start/server"
+import type { APIEvent } from "@solidjs/start/server"
 import { Resource } from "@papecode-ai/console-resource"
 import { cookie, docs, localeFromRequest, tag } from "~/lib/language"
 

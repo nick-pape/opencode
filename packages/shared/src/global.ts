@@ -1,4 +1,4 @@
-﻿import path from "path"
+import path from "path"
 import { xdgData, xdgCache, xdgConfig, xdgState } from "xdg-basedir"
 import os from "os"
 import { Context, Effect, Layer } from "effect"

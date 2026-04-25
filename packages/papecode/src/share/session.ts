@@ -1,4 +1,4 @@
-﻿import { Session } from "@/session"
+import { Session } from "@/session"
 import { SessionID } from "@/session/schema"
 import { SyncEvent } from "@/sync"
 import { Effect, Layer, Scope, Context } from "effect"

@@ -1,4 +1,4 @@
-﻿import { Npm } from "../npm"
+import { Npm } from "../npm"
 import type { InstanceContext } from "../project/instance"
 import { Filesystem } from "../util"
 import { Process } from "../util"

@@ -1,4 +1,4 @@
-﻿import { createSignal } from "solid-js"
+import { createSignal } from "solid-js"
 import { Dialog } from "@papecode-ai/ui/dialog"
 import { Button } from "@papecode-ai/ui/button"
 import { useDialog } from "@papecode-ai/ui/context/dialog"

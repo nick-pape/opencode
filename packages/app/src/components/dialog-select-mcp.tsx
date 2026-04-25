@@ -1,4 +1,4 @@
-﻿import { useMutation } from "@tanstack/solid-query"
+import { useMutation } from "@tanstack/solid-query"
 import { Component, createEffect, createMemo, on, Show } from "solid-js"
 import { createStore } from "solid-js/store"
 import { useSync } from "@/context/sync"

@@ -1,4 +1,4 @@
-﻿﻿import { createPapecodeClient } from "@papecode-ai/sdk/v2"
+﻿import { createPapecodeClient } from "@papecode-ai/sdk/v2"
 import { SessionID } from "@/session/schema"
 
 export async function validateSession(input: {

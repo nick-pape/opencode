@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bun
+#!/usr/bin/env bun
 
 import { Script } from "@papecode-ai/script"
 import { $ } from "bun"

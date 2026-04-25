@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <a href="https://papecode.ai">
     <picture>
       <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">

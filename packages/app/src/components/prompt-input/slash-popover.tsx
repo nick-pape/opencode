@@ -1,4 +1,4 @@
-﻿import { Component, For, Match, Show, Switch } from "solid-js"
+import { Component, For, Match, Show, Switch } from "solid-js"
 import { FileIcon } from "@papecode-ai/ui/file-icon"
 import { Icon } from "@papecode-ai/ui/icon"
 import { getDirectory, getFilename } from "@papecode-ai/shared/util/path"

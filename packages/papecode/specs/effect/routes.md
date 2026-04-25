@@ -1,4 +1,4 @@
-﻿# Route handler effectification
+# Route handler effectification
 
 Practical reference for converting server route handlers in `packages/papecode` to a single `AppRuntime.runPromise(Effect.gen(...))` body.
 

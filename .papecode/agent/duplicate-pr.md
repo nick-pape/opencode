@@ -1,4 +1,4 @@
-﻿---
+---
 mode: primary
 hidden: true
 model: papecode/claude-haiku-4-5

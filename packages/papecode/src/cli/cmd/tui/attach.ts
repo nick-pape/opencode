@@ -1,4 +1,4 @@
-﻿import { cmd } from "../cmd"
+import { cmd } from "../cmd"
 import { UI } from "@/cli/ui"
 import { tui } from "./app"
 import { win32DisableProcessedInput, win32InstallCtrlCGuard } from "./win32"

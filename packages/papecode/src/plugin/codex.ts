@@ -1,4 +1,4 @@
-﻿import type { Hooks, PluginInput } from "@papecode-ai/plugin"
+import type { Hooks, PluginInput } from "@papecode-ai/plugin"
 import { Log } from "../util"
 import { Installation } from "../installation"
 import { InstallationVersion } from "../installation/version"

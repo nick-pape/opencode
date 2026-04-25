@@ -1,4 +1,4 @@
-﻿import { $ } from "bun"
+import { $ } from "bun"
 
 import { copyBinaryToSidecarFolder, getCurrentSidecar, windowsify } from "./utils"
 

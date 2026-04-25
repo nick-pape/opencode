@@ -1,4 +1,4 @@
-﻿import { test, expect } from "bun:test"
+import { test, expect } from "bun:test"
 import { Effect } from "effect"
 import path from "path"
 import { provideInstance, tmpdir } from "../fixture/fixture"

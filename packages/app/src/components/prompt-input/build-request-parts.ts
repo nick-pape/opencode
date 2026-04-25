@@ -1,4 +1,4 @@
-﻿import { getFilename } from "@papecode-ai/shared/util/path"
+import { getFilename } from "@papecode-ai/shared/util/path"
 import { type AgentPartInput, type FilePartInput, type Part, type TextPartInput } from "@papecode-ai/sdk/v2/client"
 import type { FileSelection } from "@/context/file"
 import { encodeFilePath } from "@/context/file/path"

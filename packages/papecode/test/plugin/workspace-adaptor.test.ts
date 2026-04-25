@@ -1,4 +1,4 @@
-﻿import { afterAll, afterEach, describe, expect, test } from "bun:test"
+import { afterAll, afterEach, describe, expect, test } from "bun:test"
 import { Effect } from "effect"
 import path from "path"
 import { pathToFileURL } from "url"

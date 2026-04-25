@@ -1,4 +1,4 @@
-﻿import { useDialog } from "@papecode-ai/ui/context/dialog"
+import { useDialog } from "@papecode-ai/ui/context/dialog"
 import { Dialog } from "@papecode-ai/ui/dialog"
 import { FileIcon } from "@papecode-ai/ui/file-icon"
 import { Icon } from "@papecode-ai/ui/icon"

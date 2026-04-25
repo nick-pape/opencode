@@ -1,4 +1,4 @@
-﻿export * from "./client.js"
+export * from "./client.js"
 export * from "./server.js"
 
 import { createPapecodeClient } from "./client.js"

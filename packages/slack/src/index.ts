@@ -1,4 +1,4 @@
-﻿﻿import { App } from "@slack/bolt"
+﻿import { App } from "@slack/bolt"
 import { createPapecode, type ToolPart } from "@papecode-ai/sdk"
 
 const app = new App({

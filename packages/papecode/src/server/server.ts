@@ -1,4 +1,4 @@
-﻿import { generateSpecs } from "hono-openapi"
+import { generateSpecs } from "hono-openapi"
 import { Hono } from "hono"
 import { adapter } from "#hono"
 import { lazy } from "@/util/lazy"

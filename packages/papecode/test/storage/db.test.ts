@@ -1,4 +1,4 @@
-﻿import { describe, expect, test } from "bun:test"
+import { describe, expect, test } from "bun:test"
 import path from "path"
 import { Global } from "../../src/global"
 import { InstallationChannel } from "../../src/installation/version"

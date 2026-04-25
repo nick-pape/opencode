@@ -1,4 +1,4 @@
-﻿import { intro, log, outro, spinner } from "@clack/prompts"
+import { intro, log, outro, spinner } from "@clack/prompts"
 import type { Argv } from "yargs"
 
 import { ConfigPaths } from "../../config"

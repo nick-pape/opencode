@@ -1,4 +1,4 @@
-﻿import type { MiddlewareHandler } from "hono"
+import type { MiddlewareHandler } from "hono"
 import { Instance } from "@/project/instance"
 import { InstanceBootstrap } from "@/project/bootstrap"
 import { AppRuntime } from "@/effect/app-runtime"

@@ -1,4 +1,4 @@
-﻿import { Hono, type Context } from "hono"
+import { Hono, type Context } from "hono"
 import { describeRoute, resolver, validator } from "hono-openapi"
 import { streamSSE } from "hono/streaming"
 import { Effect, Schema } from "effect"

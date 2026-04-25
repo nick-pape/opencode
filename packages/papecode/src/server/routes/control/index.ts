@@ -1,4 +1,4 @@
-﻿import { Auth } from "@/auth"
+import { Auth } from "@/auth"
 import { AppRuntime } from "@/effect/app-runtime"
 import { Log } from "@/util"
 import { Effect } from "effect"

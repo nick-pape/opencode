@@ -1,4 +1,4 @@
-﻿import { describe, expect, test } from "bun:test"
+import { describe, expect, test } from "bun:test"
 import type { UserMessage } from "@papecode-ai/sdk/v2"
 import { resetSessionModel, syncSessionModel } from "./session-model-helpers"
 

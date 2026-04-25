@@ -1,4 +1,4 @@
-﻿import { For, Show } from "solid-js"
+import { For, Show } from "solid-js"
 import type { PermissionRequest } from "@papecode-ai/sdk/v2"
 import { Button } from "@papecode-ai/ui/button"
 import { DockPrompt } from "@papecode-ai/ui/dock-prompt"

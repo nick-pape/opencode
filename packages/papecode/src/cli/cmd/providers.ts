@@ -1,4 +1,4 @@
-﻿import { Auth } from "../../auth"
+import { Auth } from "../../auth"
 import { AppRuntime } from "../../effect/app-runtime"
 import { cmd } from "./cmd"
 import * as prompts from "@clack/prompts"

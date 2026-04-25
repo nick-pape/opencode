@@ -1,4 +1,4 @@
-﻿import { useFilteredList } from "@papecode-ai/ui/hooks"
+import { useFilteredList } from "@papecode-ai/ui/hooks"
 import { useSpring } from "@papecode-ai/ui/motion-spring"
 import { createEffect, on, Component, Show, onCleanup, createMemo, createSignal, createResource } from "solid-js"
 import { createStore } from "solid-js/store"

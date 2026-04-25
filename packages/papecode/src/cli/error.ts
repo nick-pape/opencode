@@ -1,4 +1,4 @@
-﻿import { NamedError } from "@papecode-ai/shared/util/error"
+import { NamedError } from "@papecode-ai/shared/util/error"
 import { errorFormat } from "@/util/error"
 
 interface ErrorLike {

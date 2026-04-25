@@ -1,4 +1,4 @@
-﻿import { Effect, Layer, Context } from "effect"
+import { Effect, Layer, Context } from "effect"
 import { ChildProcess, ChildProcessSpawner } from "effect/unstable/process"
 import * as CrossSpawnSpawner from "@/effect/cross-spawn-spawner"
 import { InstanceState } from "@/effect"

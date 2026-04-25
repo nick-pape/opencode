@@ -1,4 +1,4 @@
-﻿mod cli;
+mod cli;
 mod constants;
 #[cfg(target_os = "linux")]
 pub mod linux_display;

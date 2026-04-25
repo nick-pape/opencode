@@ -1,4 +1,4 @@
-﻿import { $ } from "bun"
+import { $ } from "bun"
 import * as fs from "fs/promises"
 import os from "os"
 import path from "path"

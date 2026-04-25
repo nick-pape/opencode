@@ -1,4 +1,4 @@
-﻿import { AwsClient } from "aws4fetch"
+import { AwsClient } from "aws4fetch"
 import { lazy } from "@papecode-ai/shared/util/lazy"
 
 export namespace Storage {

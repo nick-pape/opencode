@@ -1,4 +1,4 @@
-﻿import { createSimpleContext } from "@papecode-ai/ui/context"
+import { createSimpleContext } from "@papecode-ai/ui/context"
 import { base64Encode } from "@papecode-ai/shared/util/encode"
 import { useParams } from "@solidjs/router"
 import { batch, createEffect, createMemo } from "solid-js"

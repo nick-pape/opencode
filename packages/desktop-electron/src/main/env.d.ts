@@ -1,4 +1,4 @@
-﻿interface ImportMetaEnv {
+interface ImportMetaEnv {
   readonly PAPECODE_CHANNEL: string
 }
 

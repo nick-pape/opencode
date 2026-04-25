@@ -1,4 +1,4 @@
-﻿import type { APIEvent } from "@solidjs/start/server"
+import type { APIEvent } from "@solidjs/start/server"
 import { and, Database, eq, isNull } from "@papecode-ai/console-core/drizzle/index.js"
 import { KeyTable } from "@papecode-ai/console-core/schema/key.sql.js"
 import { WorkspaceTable } from "@papecode-ai/console-core/schema/workspace.sql.js"

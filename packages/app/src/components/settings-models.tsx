@@ -1,4 +1,4 @@
-﻿import { useFilteredList } from "@papecode-ai/ui/hooks"
+import { useFilteredList } from "@papecode-ai/ui/hooks"
 import { ProviderIcon } from "@papecode-ai/ui/provider-icon"
 import { Switch } from "@papecode-ai/ui/switch"
 import { Icon } from "@papecode-ai/ui/icon"

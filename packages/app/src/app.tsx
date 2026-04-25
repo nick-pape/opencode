@@ -1,4 +1,4 @@
-﻿import "@/index.css"
+import "@/index.css"
 import { I18nProvider } from "@papecode-ai/ui/context"
 import { DialogProvider } from "@papecode-ai/ui/context/dialog"
 import { FileComponentProvider } from "@papecode-ai/ui/context/file"

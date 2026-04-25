@@ -1,4 +1,4 @@
-﻿import { Resource } from "@papecode-ai/console-resource"
+import { Resource } from "@papecode-ai/console-resource"
 
 async function login() {
   const url = Resource.SALESFORCE_INSTANCE_URL.value.replace(/\/$/, "")

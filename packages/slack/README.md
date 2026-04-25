@@ -1,4 +1,4 @@
-﻿# @papecode-ai/slack
+# @papecode-ai/slack
 
 Slack bot integration for papecode that creates threaded conversations.
 

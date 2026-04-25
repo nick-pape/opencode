@@ -1,4 +1,4 @@
-﻿import { randomUUID } from "node:crypto"
+import { randomUUID } from "node:crypto"
 import { EventEmitter } from "node:events"
 import { existsSync } from "node:fs"
 import { createServer } from "node:net"

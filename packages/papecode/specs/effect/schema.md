@@ -1,4 +1,4 @@
-﻿# Schema migration
+# Schema migration
 
 Practical reference for migrating data types in `packages/papecode` from
 Zod-first definitions to Effect Schema with Zod compatibility shims.

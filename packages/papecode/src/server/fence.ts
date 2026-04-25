@@ -1,4 +1,4 @@
-﻿import type { MiddlewareHandler } from "hono"
+import type { MiddlewareHandler } from "hono"
 import { Database, inArray } from "@/storage"
 import { EventSequenceTable } from "@/sync/event.sql"
 import { Workspace } from "@/control-plane/workspace"

@@ -1,4 +1,4 @@
-﻿import { describe, expect, test } from "bun:test"
+import { describe, expect, test } from "bun:test"
 import { Project } from "../../src/project"
 import { Log } from "../../src/util"
 import { $ } from "bun"

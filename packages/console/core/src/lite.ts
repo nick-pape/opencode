@@ -1,4 +1,4 @@
-﻿import { z } from "zod"
+import { z } from "zod"
 import { fn } from "./util/fn"
 import { Resource } from "@papecode-ai/console-resource"
 import { Subscription } from "./subscription"

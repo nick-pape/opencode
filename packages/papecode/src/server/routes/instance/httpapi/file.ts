@@ -1,4 +1,4 @@
-﻿import { File } from "@/file"
+import { File } from "@/file"
 import { Effect, Layer, Schema } from "effect"
 import { HttpApi, HttpApiBuilder, HttpApiEndpoint, HttpApiGroup, OpenApi } from "effect/unstable/httpapi"
 import { Authorization } from "./auth"

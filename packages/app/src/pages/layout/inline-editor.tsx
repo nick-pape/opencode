@@ -1,4 +1,4 @@
-﻿import { createStore } from "solid-js/store"
+import { createStore } from "solid-js/store"
 import { onCleanup, Show, type Accessor } from "solid-js"
 import { InlineInput } from "@papecode-ai/ui/inline-input"
 

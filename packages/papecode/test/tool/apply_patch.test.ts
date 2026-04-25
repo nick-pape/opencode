@@ -1,4 +1,4 @@
-﻿import { describe, expect, test } from "bun:test"
+import { describe, expect, test } from "bun:test"
 import path from "path"
 import * as fs from "fs/promises"
 import { Effect, ManagedRuntime, Layer } from "effect"

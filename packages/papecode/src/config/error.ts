@@ -1,4 +1,4 @@
-﻿export * as ConfigError from "./error"
+export * as ConfigError from "./error"
 
 import z from "zod"
 import { NamedError } from "@papecode-ai/shared/util/error"

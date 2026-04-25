@@ -1,4 +1,4 @@
-﻿import type { Stripe } from "stripe"
+import type { Stripe } from "stripe"
 import { Billing } from "@papecode-ai/console-core/billing.js"
 import type { APIEvent } from "@solidjs/start/server"
 import { and, Database, eq, sql } from "@papecode-ai/console-core/drizzle/index.js"

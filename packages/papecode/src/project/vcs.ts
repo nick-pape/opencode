@@ -1,4 +1,4 @@
-﻿import { Effect, Layer, Context, Schema, Stream, Scope } from "effect"
+import { Effect, Layer, Context, Schema, Stream, Scope } from "effect"
 import { formatPatch, structuredPatch } from "diff"
 import path from "path"
 import { Bus } from "@/bus"

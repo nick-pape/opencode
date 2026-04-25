@@ -1,4 +1,4 @@
-﻿import type { Context } from "hono"
+import type { Context } from "hono"
 import { Effect } from "effect"
 import { AppRuntime } from "@/effect/app-runtime"
 

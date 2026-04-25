@@ -1,4 +1,4 @@
-﻿import type { APIEvent } from "@solidjs/start/server"
+import type { APIEvent } from "@solidjs/start/server"
 import { LOCALE_HEADER, localeFromCookieHeader, parseLocale, tag } from "~/lib/language"
 
 async function handler(evt: APIEvent) {

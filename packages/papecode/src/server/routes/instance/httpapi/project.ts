@@ -1,4 +1,4 @@
-﻿import * as InstanceState from "@/effect/instance-state"
+import * as InstanceState from "@/effect/instance-state"
 import { Project } from "@/project"
 import { Effect, Layer, Schema } from "effect"
 import { HttpApi, HttpApiBuilder, HttpApiEndpoint, HttpApiGroup, OpenApi } from "effect/unstable/httpapi"

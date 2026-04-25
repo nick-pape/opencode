@@ -1,4 +1,4 @@
-﻿import { afterEach, describe, expect, spyOn, test } from "bun:test"
+import { afterEach, describe, expect, spyOn, test } from "bun:test"
 import { Effect } from "effect"
 import path from "path"
 import { GlobalBus } from "../../src/bus/global"

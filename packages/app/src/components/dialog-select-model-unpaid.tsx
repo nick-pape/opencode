@@ -1,4 +1,4 @@
-﻿import { Button } from "@papecode-ai/ui/button"
+import { Button } from "@papecode-ai/ui/button"
 import { useDialog } from "@papecode-ai/ui/context/dialog"
 import { Dialog } from "@papecode-ai/ui/dialog"
 import { List, type ListRef } from "@papecode-ai/ui/list"

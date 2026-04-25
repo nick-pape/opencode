@@ -1,4 +1,4 @@
-﻿# Effect patterns
+# Effect patterns
 
 Practical reference for new and migrated Effect code in `packages/papecode`.
 

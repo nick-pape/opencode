@@ -1,4 +1,4 @@
-﻿# HttpApi migration
+# HttpApi migration
 
 Plan for replacing instance Hono route implementations with Effect `HttpApi` while preserving behavior, OpenAPI, and SDK output during the transition.
 

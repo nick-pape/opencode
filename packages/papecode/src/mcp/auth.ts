@@ -1,4 +1,4 @@
-﻿import path from "path"
+import path from "path"
 import z from "zod"
 import { Global } from "../global"
 import { Effect, Layer, Context } from "effect"

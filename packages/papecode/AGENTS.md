@@ -1,4 +1,4 @@
-﻿# papecode database guide
+# papecode database guide
 
 ## Database
 

@@ -1,4 +1,4 @@
-﻿import { Glob } from "@papecode-ai/shared/util/glob"
+import { Glob } from "@papecode-ai/shared/util/glob"
 
 const FOLDERS = new Set([
   "node_modules",

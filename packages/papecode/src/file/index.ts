@@ -1,4 +1,4 @@
-﻿import { BusEvent } from "@/bus/bus-event"
+import { BusEvent } from "@/bus/bus-event"
 import { InstanceState } from "@/effect"
 
 import { AppFileSystem } from "@papecode-ai/shared/filesystem"

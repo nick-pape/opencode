@@ -1,4 +1,4 @@
-﻿---
+---
 description: Translate content for a specified locale while preserving technical terms
 mode: subagent
 model: papecode/gpt-5.4

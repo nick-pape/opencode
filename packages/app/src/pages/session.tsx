@@ -1,4 +1,4 @@
-﻿import type { Project, UserMessage } from "@papecode-ai/sdk/v2"
+import type { Project, UserMessage } from "@papecode-ai/sdk/v2"
 import { useDialog } from "@papecode-ai/ui/context/dialog"
 import { createQuery, skipToken, useMutation, useQueryClient } from "@tanstack/solid-query"
 import {

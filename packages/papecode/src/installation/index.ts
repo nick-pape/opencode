@@ -1,4 +1,4 @@
-﻿import { Effect, Layer, Schema, Context, Stream } from "effect"
+import { Effect, Layer, Schema, Context, Stream } from "effect"
 import { FetchHttpClient, HttpClient, HttpClientRequest, HttpClientResponse } from "effect/unstable/http"
 import * as CrossSpawnSpawner from "@/effect/cross-spawn-spawner"
 import { withTransientReadRetry } from "@/util/effect-http-client"

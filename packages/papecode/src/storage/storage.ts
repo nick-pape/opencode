@@ -1,4 +1,4 @@
-﻿import { Log } from "../util"
+import { Log } from "../util"
 import path from "path"
 import { Global } from "../global"
 import { NamedError } from "@papecode-ai/shared/util/error"

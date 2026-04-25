@@ -1,4 +1,4 @@
-﻿import { query, useParams, createAsync } from "@solidjs/router"
+import { query, useParams, createAsync } from "@solidjs/router"
 import { createMemo, createSignal, Show } from "solid-js"
 import { IconCopy, IconCheck } from "~/component/icon"
 import { Key } from "@papecode-ai/console-core/key.js"
